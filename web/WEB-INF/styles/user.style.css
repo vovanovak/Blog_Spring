@@ -1,0 +1,102 @@
+
+body {
+    background: #3a5971; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a5971 0%, #2c4762 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a5971), color-stop(100%,#2c4762)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3a5971 0%,#2c4762 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3a5971 0%,#2c4762 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3a5971 0%,#2c4762 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3a5971 0%,#2c4762 100%); /* W3C */
+    min-height: 100%;
+    height: 100%;
+}
+#title {
+        color: white;
+        font-family: Comic Sans MS;
+        font-size: 28pt;
+         margin-left: 180px;
+        cursor: pointer;
+}
+#wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2C4762;
+    height: 100vh;
+    border-radius: 10px;
+}
+.post {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.postcontent{
+    margin: 30px;
+}
+.poster {
+    color: #989898;
+    font-weight: bold;
+}
+.postHeader{
+    margin-top: 10px;
+    color: #B8B8B8;
+    font-weight: bolder;
+}
+.postContent{
+   margin-top: 13px; 
+   white-space:pre-wrap;
+}
+
+.newPost {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textInput {
+        width: 600px;
+        height: 40px;
+        border: 1px white solid;
+        border-bottom: 1px gray solid;
+}
+#textInputUsername{
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+}
+#textInputDateOfBirth{
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border: 1px white solid;
+}
+#buttonSubmit {
+        width: 600px;
+       height: 40px;
+       color: white;
+       font-size: 11pt;
+       text-align: center;
+       border: 1px #529ecc solid;
+       border-radius: 3px;
+       background-color: #529ecc;
+       margin-top: 6px;
+       cursor: pointer;
+}
+.commentHeader {
+   margin-top: 13px;
+   color: #606060;
+}
+.comment {
+   margin-top: 10px;
+}
+.commentSender1 {
+   color: #989898 ;
+}
+.commentBody1 {
+   margin-top: 6px;
+   color: #B8B8B8 ;
+}
+#btnSettings {
+
+}

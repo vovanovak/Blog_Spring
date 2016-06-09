@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Timeburner";
+    src: url('../fonts/Timeburner.ttf') format("truetype");
+}
+
+#form{
+
+}
+
+#formTitle{
+	font-size: 50pt;
+	font-family: Timeburner;
+	color: white;
+}
+
+.formTextInput{
+	width: 200px;
+	height: 30px;
+	font-size: 7pt;
+	background: white;
+	border: none;
+	border-radius: 2px;
+	margin-left: -77px;
+}
+
+.watermark{
+	font-size: 14pt;
+	color: #909090; 
+}
+.formElement{
+	margin-left: 20px;
+}
+
+#formSubmit{
+	width: 200px;
+	height: 37px;
+	text-align: center;
+	line-height: 25pt;
+	font-style: Verdana;
+	font-size: 14pt;
+	background-color: #529ecc;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+}

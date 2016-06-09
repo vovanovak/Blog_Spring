@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.09.2014, 20:42:11
+    Author     : Vova
+*/
+
+#title {
+        color: white;
+        font-family: Comic Sans MS;
+        text-align: center;
+        cursor: pointer;
+}
+.textInput {
+        width: 250px;
+        height: 40px;
+        border: 1px white solid;
+        border-bottom: 1px gray solid;
+}
+#textInputUsername{
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+}
+#textInputDateOfBirth{
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border: 1px white solid;
+}
+#buttonSubmit {
+        width: 250px;
+        height: 40px;
+        color: white;
+        font-size: 11pt;
+        text-align: center;
+        border: 1px #529ecc solid;
+        border-radius: 3px;
+        background-color: #529ecc;
+        margin-top: 6px;
+        cursor: pointer;
+}
+#buttonRegister {
+        width: 247px;
+        height: 40px;
+        color: white;
+        font-size: 12pt;
+        text-align: center;
+        border: 1px #B0B0B0 solid;
+        border-radius: 3px;
+        background-color: #B0B0B0;
+        margin-top: 6px;
+        line-height: 30pt;
+        cursor: pointer;
+        position: absolute;
+        left: 1%;
+        top: 93%;
+}
+#divRegForm {
+        margin-top:400px;
+}
+textarea:focus, input:focus{
+        outline: 0;
+}
+#buttonRegister {
+        width: 250px;
+        height: 40px;
+        color: white;
+        font-size: 12pt;
+        text-align: center;
+        border: 1px #B0B0B0 solid;
+        border-radius: 3px;
+        background-color: #B0B0B0;
+        margin-top: 6px;
+        line-height: 30pt;
+        cursor: pointer;
+        position: absolute;
+        left: 1%;
+        top: 93%;
+}
